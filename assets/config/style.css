@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* GERAL */
+body {
+  text-align: center;
+}
+
+main {
+  padding-top: 200px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+  color: #151718;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(44, 46, 47, 0.9);
+}
+
+/* ESPECÍFICO */
+#links {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
